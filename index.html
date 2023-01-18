@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="game-container">
+    <div class="game-area">
+      <div class="user-container">
+        <h1>USER</h1>
+        <div class="img-container">
+          <img id='user-img' src="QUESTION.png" alt="">
+        </div>  
+      </div>
+
+      <div class="result-container">
+        <p id="result">VS</p>
+      </div>
+
+      <div class="pc-container">
+        <h1>PC</h1>
+        <div class="img-container">
+          <img id='pc-img' src="QUESTION.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="choice">
+      <button>ROCK</button>
+      <button>PAPER</button>
+      <button>SCISSORS</button>
+    </div>
+  </section>
+
+  <section class="score-area">
+    <p>WIN: <span id="user-score">0</span></p>
+    <p>WIN: <span id="pc-score">0</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
